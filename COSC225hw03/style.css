@@ -1,0 +1,41 @@
+/* 
+Megan Huang
+style sheet for cosc225 hw03
+*/
+
+body {
+    background-color: hsl(225, 14%, 40%);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+/* center holding rest of the elements on the page */
+.main {
+    background-color: hsl(225, 10%, 80%);
+    padding-bottom: 100px;
+}
+
+/* outer grid structure */
+.grid {
+    border: solid white;
+    border-width: 5px;
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* specifies each tile style */
+.tile {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* makes the color dimmer */
+.tile:hover {
+    filter: brightness(0.7);
+}
