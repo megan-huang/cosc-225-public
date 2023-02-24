@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Megan Huang">
+    <meta name="description" content="simulating cellular automata.">
+    <title>Cellular Automata</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="cellular-automata.js"></script>
+
+    <!-- draws colored tiles generatively -->
+    <script>
+        window.onload = function () {
+            const rule = 81;
+            const width = 150;
+            const height = 400;
+            draw(rule, width, height);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>
